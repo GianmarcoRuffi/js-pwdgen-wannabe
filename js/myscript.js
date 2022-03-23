@@ -4,10 +4,10 @@ poi chiedi il suo colore preferito
 Infine scrivi sulla pagina nomecognomecolorepreferito21
 */
 
-var firstName;
-var lastName;
-var favColor;
-var supersafePass;
+let firstName;
+let lastName;
+let favColor;
+let supersafePass;
 
 firstName = prompt("Buongiorno Utente, qual'è il tuo nome?");
 console.log("First Name: " + firstName);
