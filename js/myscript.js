@@ -1,3 +1,16 @@
+/* 
+Mermaid flowchart
+
+graph TD
+    A[Apertura pop-up] -->B[Richiesta del nome]
+    B[Richiesta del nome] --> |OK / Annulla|C[Richiesta del cognome]
+    C[Richiesta del cognome] --> |OK / Annulla|D[Richiesta del colore preferito]
+    D[Richiesta del colore preferito] -->E{Conferma}
+    E -->|OK| F[Somma dei dati richiesti]
+    E -->|Annulla| G[Somma dei dati e comparsa della stringa null nei campi annullati]
+    F --> Somma+21
+    G--> Somma+21*/
+
 /* Chiedi all’utente il suo nome,
 poi chiedi il suo cognome,
 poi chiedi il suo colore preferito
